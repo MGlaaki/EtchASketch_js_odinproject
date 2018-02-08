@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href=style.css>
+
+
+</head>
+
+
+<body>
+
+  <button id="nbreCases" onclick="setupBoard()" >Choisir nombre cases</button>
+  <button id="nbreDefault" onclick="buildBoard(1024)" >Grille par défault</button>
+  <button id="reset" onclick="reset()" >Reset</button>
+
+<form>
+  <input id="radioBlack" name="setColor" type="radio" checked="checked">Paint it black !</input>
+  <input id="radioRandom" name="setColor" type="radio">Random Colors</input>
+</form>
+
+
+  <div id="container">
+  </div>
+
+
+
+  <script src="javascript.js" type="text/javascript"></script>
+
+</body>
