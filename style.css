@@ -1,6 +1,7 @@
 #container {
   display: grid ;
   background-color : grey ;
+  border : "thick solid black" ;
   height : 700px ;
   width : 700px ;
   overflow : auto ;
